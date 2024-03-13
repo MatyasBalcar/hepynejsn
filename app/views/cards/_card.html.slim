@@ -1,11 +1,18 @@
-.card style='width:200px'
+.card style='width:250px'
     .div.container style='padding-left: 10px;padding-top:10px;padding-right:10px'
         .row
-            .col-sm 
+            .col-sm style="margin-left:20px;font-size:25px"
                 =suit 
+        .row style="margin-left:15px;font-size:25px"
             .col-sm 
-                =suit
+                =value
+        .row style="margin-top:40px;font-size:50px;"
+            .col-sm style='margin-left:75px'
+                =suit 
 
-        
-        .row style="margin-top:50px;"
-            = value
+        .row  style="margin-top:40px;margin-right:20px;transform:rotate(180deg);font-size:25px;"
+            .col-sm 
+                =value
+        .row style="margin-left:90px;transform:rotate(180deg)"
+            .col-sm style="margin-left:23px;font-size:25px"
+                =suit 
