@@ -15,6 +15,7 @@
 
   <body>
     <%= render "home/navbar"%>
+    <%= render partial: "cards/card" , locals: {suit: "DIAMOND", value: 5}%>
     <%= yield %>
 
   </body>
